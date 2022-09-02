@@ -26,12 +26,14 @@ nav {
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
     justify-content:  space-between;
+    text-align: center;
 }
 
 .nav-link {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    margin: 0px 20px 0px 20px;
 }
 
 h1 {
