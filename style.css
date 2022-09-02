@@ -1,63 +1,85 @@
 body {
     font-family: sans-serif;
-}
-header img{
-    height: 50px;
-}
-header{
-    background-color: #FF9F00;
+    background-color: black;
 }
 
-footer{
-    background-color: #FF9F00;
-    padding: 10px;
-} 
-nav{
-color: black;
-    margin-top: 20px;
-    text-align: center;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #FFAD40;
 }
-a {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    font-size: 15px;
-    text-decoration: none; 
-    border: 5px solid #BF8930;
-    border-radius: 50px;
-    
-    padding: 5px 10px 5px 10px;
-}
-    footer p {
-    background-color: white;
+
+.button {
+    background-color: #3F92D2;
     color: black;
-    padding: 5px;
-    margin: 5px;}
-h1{
-    text-align: center;
-     font-size: 50px;
-     color: #A66800;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
 
+nav {
+    display: ;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
 }
-main p{
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
     text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.e{
-    height: 400px;
+
+p {
+    font-size: 24px;
     
 }
-.q{
-height: 100px;
-margin-bottom: 300px;
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
 }
-.w{
-height: 100px;
-margin-bottom: 150px;
+
+article {
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    margin: 15px;
 }
-.r{
-    height: 100px;
-    margin-right: 50px;
+
+.article-but {
+    text-decoration: none;
+    background-color: #3F92D2;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
 }
-.t{
-    margin-right: 150px;
+
+footer {
+    display: flex;
+    background-color: #FFAD40;
+    padding: 20px;
+}
+
+footer a {
+    margin-right: 20px;
+}
+
+footer p {
+    font-size: 24px;
 }
