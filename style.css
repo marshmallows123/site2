@@ -25,7 +25,7 @@ nav {
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
-    justify-content: space-between;
+    justify-content:  space-around;
 }
 
 .nav-link {
@@ -59,6 +59,7 @@ article {
     padding: 15px;
     width: 400px;
     margin: 15px;
+    justify-content:  space-around;
 }
 
 .article-but {
